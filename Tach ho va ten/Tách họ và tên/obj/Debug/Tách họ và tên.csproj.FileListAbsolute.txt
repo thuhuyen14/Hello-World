@@ -1,0 +1,10 @@
+D:\My project C#\Tách họ và tên\Tách họ và tên\bin\Debug\Tách họ và tên.exe.config
+D:\My project C#\Tách họ và tên\Tách họ và tên\bin\Debug\Tách họ và tên.exe
+D:\My project C#\Tách họ và tên\Tách họ và tên\bin\Debug\Tách họ và tên.pdb
+D:\My project C#\Tách họ và tên\Tách họ và tên\obj\Debug\Tách họ và tên.csproj.AssemblyReference.cache
+D:\My project C#\Tách họ và tên\Tách họ và tên\obj\Debug\Tách_họ_và_tên.Form1.resources
+D:\My project C#\Tách họ và tên\Tách họ và tên\obj\Debug\Tách_họ_và_tên.Properties.Resources.resources
+D:\My project C#\Tách họ và tên\Tách họ và tên\obj\Debug\Tách họ và tên.csproj.GenerateResource.cache
+D:\My project C#\Tách họ và tên\Tách họ và tên\obj\Debug\Tách họ và tên.csproj.CoreCompileInputs.cache
+D:\My project C#\Tách họ và tên\Tách họ và tên\obj\Debug\Tách họ và tên.exe
+D:\My project C#\Tách họ và tên\Tách họ và tên\obj\Debug\Tách họ và tên.pdb

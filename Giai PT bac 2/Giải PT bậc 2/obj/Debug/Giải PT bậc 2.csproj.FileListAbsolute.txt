@@ -1,0 +1,10 @@
+D:\My project C#\Giải PT bậc 2\Giải PT bậc 2\obj\Debug\Giải PT bậc 2.csproj.AssemblyReference.cache
+D:\My project C#\Giải PT bậc 2\Giải PT bậc 2\obj\Debug\Giải_PT_bậc_2.Form1.resources
+D:\My project C#\Giải PT bậc 2\Giải PT bậc 2\obj\Debug\Giải_PT_bậc_2.Properties.Resources.resources
+D:\My project C#\Giải PT bậc 2\Giải PT bậc 2\obj\Debug\Giải PT bậc 2.csproj.GenerateResource.cache
+D:\My project C#\Giải PT bậc 2\Giải PT bậc 2\obj\Debug\Giải PT bậc 2.csproj.CoreCompileInputs.cache
+D:\My project C#\Giải PT bậc 2\Giải PT bậc 2\bin\Debug\Giải PT bậc 2.exe.config
+D:\My project C#\Giải PT bậc 2\Giải PT bậc 2\bin\Debug\Giải PT bậc 2.exe
+D:\My project C#\Giải PT bậc 2\Giải PT bậc 2\bin\Debug\Giải PT bậc 2.pdb
+D:\My project C#\Giải PT bậc 2\Giải PT bậc 2\obj\Debug\Giải PT bậc 2.exe
+D:\My project C#\Giải PT bậc 2\Giải PT bậc 2\obj\Debug\Giải PT bậc 2.pdb

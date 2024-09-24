@@ -1,0 +1,5 @@
+D:\My project C#\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+D:\My project C#\Calculator\obj\Debug\Calculator.Form1.resources
+D:\My project C#\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+D:\My project C#\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+D:\My project C#\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache

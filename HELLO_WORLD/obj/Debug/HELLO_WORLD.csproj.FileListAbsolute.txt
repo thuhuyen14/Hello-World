@@ -1,0 +1,10 @@
+D:\My project C#\HELLO_WORLD\bin\Debug\HELLO_WORLD.exe.config
+D:\My project C#\HELLO_WORLD\bin\Debug\HELLO_WORLD.exe
+D:\My project C#\HELLO_WORLD\bin\Debug\HELLO_WORLD.pdb
+D:\My project C#\HELLO_WORLD\obj\Debug\HELLO_WORLD.csproj.AssemblyReference.cache
+D:\My project C#\HELLO_WORLD\obj\Debug\HELLO_WORLD.Form1.resources
+D:\My project C#\HELLO_WORLD\obj\Debug\HELLO_WORLD.Properties.Resources.resources
+D:\My project C#\HELLO_WORLD\obj\Debug\HELLO_WORLD.csproj.GenerateResource.cache
+D:\My project C#\HELLO_WORLD\obj\Debug\HELLO_WORLD.csproj.CoreCompileInputs.cache
+D:\My project C#\HELLO_WORLD\obj\Debug\HELLO_WORLD.exe
+D:\My project C#\HELLO_WORLD\obj\Debug\HELLO_WORLD.pdb
