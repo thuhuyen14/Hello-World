@@ -33,12 +33,12 @@
             this.txtHoTen = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.textBoxTen = new System.Windows.Forms.TextBox();
+            this.textBoxDem = new System.Windows.Forms.TextBox();
+            this.textBoxHo = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -64,10 +64,10 @@
             // 
             // txtHoTen
             // 
-            this.txtHoTen.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtHoTen.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtHoTen.Location = new System.Drawing.Point(150, 76);
             this.txtHoTen.Name = "txtHoTen";
-            this.txtHoTen.Size = new System.Drawing.Size(317, 30);
+            this.txtHoTen.Size = new System.Drawing.Size(317, 34);
             this.txtHoTen.TabIndex = 0;
             // 
             // button1
@@ -82,36 +82,41 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.textBoxTen);
+            this.groupBox1.Controls.Add(this.textBoxDem);
+            this.groupBox1.Controls.Add(this.textBoxHo);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Location = new System.Drawing.Point(65, 235);
+            this.groupBox1.Location = new System.Drawing.Point(141, 237);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(306, 104);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Kết quả";
             // 
-            // label3
+            // textBoxTen
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(33, 30);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(28, 16);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Họ:";
+            this.textBoxTen.Location = new System.Drawing.Point(75, 79);
+            this.textBoxTen.Name = "textBoxTen";
+            this.textBoxTen.Size = new System.Drawing.Size(157, 22);
+            this.textBoxTen.TabIndex = 5;
             // 
-            // label4
+            // textBoxDem
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(33, 55);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 16);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Đệm:";
+            this.textBoxDem.Location = new System.Drawing.Point(75, 52);
+            this.textBoxDem.Name = "textBoxDem";
+            this.textBoxDem.Size = new System.Drawing.Size(157, 22);
+            this.textBoxDem.TabIndex = 4;
+            this.textBoxDem.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            // 
+            // textBoxHo
+            // 
+            this.textBoxHo.Location = new System.Drawing.Point(75, 21);
+            this.textBoxHo.Name = "textBoxHo";
+            this.textBoxHo.Size = new System.Drawing.Size(157, 22);
+            this.textBoxHo.TabIndex = 3;
+            this.textBoxHo.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label5
             // 
@@ -123,31 +128,27 @@
             this.label5.Text = "Tên:";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
-            // textBox2
+            // label4
             // 
-            this.textBox2.Location = new System.Drawing.Point(75, 21);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(157, 22);
-            this.textBox2.TabIndex = 3;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(33, 55);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(38, 16);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "Đệm:";
             // 
-            // textBox3
+            // label3
             // 
-            this.textBox3.Location = new System.Drawing.Point(75, 52);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(157, 22);
-            this.textBox3.TabIndex = 4;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(75, 79);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(157, 22);
-            this.textBox4.TabIndex = 5;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(33, 30);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(28, 16);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Họ:";
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(188, 364);
+            this.button2.Location = new System.Drawing.Point(253, 369);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(82, 34);
             this.button2.TabIndex = 5;
@@ -187,9 +188,9 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBoxTen;
+        private System.Windows.Forms.TextBox textBoxDem;
+        private System.Windows.Forms.TextBox textBoxHo;
         private System.Windows.Forms.Button button2;
     }
 }
